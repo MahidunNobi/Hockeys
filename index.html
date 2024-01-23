@@ -18,6 +18,20 @@
         .font-manrope{
             font-family: 'Manrope', sans-serif;
         }
+        .bgr{
+            background-position: center !important;
+           background-repeat: no-repeat !important;
+           background-size: cover !important;
+        }
+        .first-card-bg{
+           background: linear-gradient(45deg, rgba(19, 19, 24, 0.5),rgba(19, 19, 24, 0.5)),url(./Images/2.png);           
+        }
+        .secound-card-bg{
+           background: linear-gradient(45deg, rgba(19, 19, 24, 0.5),rgba(19, 19, 24, 0.5)),url(./Images/3.png);           
+        }
+        .third-card-bg{
+           background: linear-gradient(45deg, rgba(19, 19, 24, 0.5),rgba(19, 19, 24, 0.5)),url(./Images/4.png);           
+        }
     </style>
 </head>
 <body class="font-manrope  min-h-screen">
@@ -114,6 +128,7 @@
         </div>
     </header>
     <main class="bg-white">
+        <!-- Profissional Hockey Club -->
         <section class="container mx-auto text-center my-16 md:my-28 ">
             <h1 class="text-2xl md:text-4xl font-extrabold">Professional Hockeys Club</h1>
             <p class="opacity-80 max-w-[600px] my-6 mx-auto">Explore the essence of elite hockey in our 'Professional Hockey Club' zone. Dive into team rosters, player profiles, and captivating match highlights.</p>
@@ -139,6 +154,43 @@
                     <p class="text-gray-500"> Access expert drills, workouts, and techniques. </p>
                 </div>
             </div>
+        </section>
+        <!-- Professional Section -->
+        <section class="container mx-auto text-center my-16 md:my-28 px-5">
+            <h1 class="text-2xl md:text-4xl font-extrabold">Program Sections</h1>
+            <p class="opacity-80 max-w-[600px] my-6 mx-auto">Explore skill-building modules, strategic play guides, and fitness routines. Find the perfect program to enhance your game, advancing step by step.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 text-white gap-6">
+                <div class="md:min-h-[340px] p-6 md:p-10 rounded-2xl first-card-bg bgr flex flex-col justify-end items-start space-y-4">
+                    <h4 class="text-2xl font-extrabold"> Junior Program </h4>
+                    <p class=" text-left">
+                        Unleash youthful energy with skill-building exercises. Nurture a passion for hockey  engaging activities. Discover the exciting journey of young players as they grow and develop on the ice.
+                    </p>
+                    <button class="btn bg-[#FF4240] text-white hover:bg-[#FF4240] font-extrabold inline border-none">Register Now!</button>
+
+                </div>
+                <div class="md:min-h-[340px] p-6 md:p-10 rounded-2xl secound-card-bg bgr flex flex-col justify-end items-start space-y-4">
+                    <h4 class="text-2xl font-extrabold"> Teenager Program </h4>
+                    <p class=" text-left">
+                        Tailored for budding athletes, discover targeted drills and skill development strategies. Navigate the exciting path of teenage players as they hone their prowess on the ice.
+                    </p>
+                    <button class="btn bg-[#FF4240] text-white hover:bg-[#FF4240] font-extrabold inline border-none">Register Now!</button>
+
+                </div>
+                <div class="md:min-h-[340px] md:col-span-2 p-6 md:p-10 rounded-2xl third-card-bg bgr flex flex-col justify-end items-start space-y-4">
+                    <h4 class="text-2xl font-extrabold"> Professional Program </h4>
+                    <p class=" text-left max-w-[520px]">
+                        Immerse yourself in the world of professional training, gearing up to conquer the challenges of high-level hockey. Elevate your skills and performance to compete at the pinnacle of the sport.
+                    </p>
+                    <button class="btn bg-[#FF4240] text-white hover:bg-[#FF4240] font-extrabold inline border-none">Register Now!</button>
+
+                </div>
+            </div>            
+        </section>
+        <!-- Our New Products  -->
+        <section class="container mx-auto text-center my-16 md:my-28 ">
+            <h1 class="text-2xl md:text-4xl font-extrabold">Our New Products</h1>
+            <p class="opacity-80 max-w-[600px] my-6 mx-auto"> Explore the latest gear, equipment, and accessories designed to enhance your hockey experience.</p>            
         </section>
     </main>
     <footer></footer>
